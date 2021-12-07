@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  line-height: 1.5;
+  background-color: #fbfbfb;
+}
+.navbar {
+  background-color: #ce0505 !important;
+}
+.heading {
+  margin: 10px 10px 15px 113px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #192f60;
+}
+.sidebar {
+  width: 260px;
+  height: 580px;
+  margin: 0.313rem 2.813rem 0.5rem 7.063rem;
+  padding: 17px 25px 31px 26px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #fff;
+}
+.sidebar-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #192f60;
+  margin: 10px 10px;
+}
+.sidebar-subtitle {
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  color: #192f60 !important;
+}
+.card {
+  width: 800px;
+  height: 291px;
+  margin-bottom: 20px;
+  padding: 10px 10px 15px 15px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #fff;
+}
+.page-item {
+  margin: 10px;
+}
+.logo {
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  color: #ce0505 !important;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .heading {
+    margin: 20px auto;
+  }
+}
