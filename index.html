@@ -9,7 +9,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-    <title>Document</title>
+    <title>Filter page</title>
   </head>
   <body>
     <!-- nav bar -->
@@ -22,12 +22,13 @@
         </div>
       </div>
     </nav>
-
+    <div class="container">
+      <h2 class="heading my-3">Breakfast Places in Mumbai</h2>
+    </div>
     <div class="container-fluid">
       <!-- sidebar -->
-      <h2 class="heading">Breakfast Places in Mumbai</h2>
       <!-- select location -->
-      <div class="d-xxl-none">
+      <div class="d-lg-none">
         <div class="dropdown mb-3">
           <button
             class="btn btn-outline-dark dropdown-toggle w-100 dropdown-button"
@@ -38,9 +39,12 @@
           >
             filters/Sort
           </button>
-          <ul class="dropdown-menu p-0" aria-labelledby="dropdownMenuButton1">
-            <li>
-              <div class="sidebar m-auto">
+          <ul
+            class="dropdown-menu p-0 w-100"
+            aria-labelledby="dropdownMenuButton1"
+          >
+            <li class="w-100">
+              <div class="sidebar m-auto w-100">
                 <p class="sidebar-title">Filters</p>
                 <p class="sidebar-subtitle my-2">Select Location</p>
                 <!-- select location -->
@@ -193,7 +197,7 @@
       </div>
 
       <div class="row">
-        <div class="col-2 d-none d-xxl-block sidebar">
+        <div class="col-2 sidebar d-none d-lg-block">
           <p class="sidebar-title">Filters</p>
           <p class="sidebar-subtitle my-2">Select Location</p>
           <!-- select location -->
@@ -340,12 +344,12 @@
           </div>
         </div>
         <!-- cards -->
-        <div class="col-auto">
+        <div class="col-sm-12 col-md-12 col-lg-7">
           <div class="row">
             <div class="card">
               <div class="card-body">
                 <div class="row">
-                  <div class="col-4">
+                  <div class="col-3">
                     <img
                       src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
                       class="img-fluid rounded"
@@ -376,7 +380,7 @@
             <div class="card">
               <div class="card-body">
                 <div class="row">
-                  <div class="col-4">
+                  <div class="col-3">
                     <img
                       src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
                       class="img-fluid rounded"
@@ -408,15 +412,21 @@
       <div class="footer d-flex justify-content-center">
         <ul class="pagination">
           <li class="page-item">
-            <a class="page-link" href="#" aria-label="Previous">
+            <a class="page-link text-dark" href="#" aria-label="Previous">
               <span aria-hidden="true">&#60;</span>
             </a>
           </li>
-          <li class="page-item"><a class="page-link" href="#">1</a></li>
-          <li class="page-item"><a class="page-link" href="#">2</a></li>
-          <li class="page-item"><a class="page-link" href="#">3</a></li>
           <li class="page-item">
-            <a class="page-link" href="#" aria-label="Next">
+            <a class="page-link active" href="#">1</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link text-dark" href="#">2</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link text-dark" href="#">3</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link text-dark" href="#" aria-label="Next">
               <span aria-hidden="true">&#62;</span>
             </a>
           </li>
